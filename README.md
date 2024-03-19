@@ -95,8 +95,8 @@ echo "Hello Allen."
 #SBATCH --ntasks-per-node=1
 #SBATCH --time=4:00:00
 #SBATCH -p CPU
-#SBATCH -output=greet_allen.out
-#SBATCH -error=greet_allen.err
+#SBATCH -output=greet_xiuqi.out
+#SBATCH -error=greet_xiuqi.err
 
 
 echo "Hello Xiuqi."
