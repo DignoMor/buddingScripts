@@ -90,7 +90,7 @@ echo "Hello Allen."
 
 ```{slurm}
 #!/bin/bash
-#SBATCH --job-name=greet_allen
+#SBATCH --job-name=greet_xiuqi
 #SBATCH -N 1
 #SBATCH --ntasks-per-node=1
 #SBATCH --time=4:00:00
